@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[3]:
+# In[4]:
 
 
 from sklearn.datasets import load_digits
@@ -28,7 +28,7 @@ y = digits.target
 y.shape
 
 #Gaussian Naive-Bayes Classifiaction
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, random_state=0)
 from sklearn.naive_bayes import GaussianNB
 model = GaussianNB()

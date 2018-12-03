@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 
 get_ipython().magic('matplotlib inline')
@@ -28,7 +28,7 @@ y = digits.target
 y.shape
 
 # Random forest Classifier
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 Xtrain, Xtest, ytrain, ytest = train_test_split(digits.data, digits.target,

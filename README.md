@@ -8,7 +8,7 @@ This project was developed in the Jupyter notebook environment. You may need to 
 2. Matplotlib libraries: pyplot
 3. Numpy
 4. Seaborn
-5. Scikit Learn libraries: datasets, cross_validation, naive_bayes, metrics, svm, decomposition, pipeline, grid_search, ensemble
+5. Scikit Learn libraries: datasets, model_selection, naive_bayes, metrics, svm, decomposition, pipeline, grid_search, ensemble
 6. Scipy
 
 3D plot:
@@ -20,7 +20,7 @@ This project was developed in the Jupyter notebook environment. You may need to 
 Module imports:
 1. load_digits from datasets
 2. plt from pyplot
-3. train_test_split from cross_validation
+3. train_test_split from model_selection
 4. GaussianNB from naive_bayes
 5. accuracy_score from metrics
 6. sns from Seabon

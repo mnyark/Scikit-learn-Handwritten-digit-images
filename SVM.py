@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[5]:
+# In[6]:
 
 
 get_ipython().magic('matplotlib inline')
@@ -58,7 +58,7 @@ pca = PCA(svd_solver='randomized', n_components=64, random_state=9)
 svc = SVC(kernel='rbf', class_weight = 'balanced')
 model = make_pipeline(pca, svc)
 
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 Xtrain, Xtest, ytrain, ytest = train_test_split(digits.data, digits.target, random_state=20)
 
 from sklearn.grid_search import GridSearchCV
