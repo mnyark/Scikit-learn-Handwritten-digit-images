@@ -1,8 +1,8 @@
-Exploring Handwritten Digit Images
+# Exploring Handwritten Digit Images
 
 This project was developed in the Jupyter notebook environment. You may need to use the Jupyter Notebook notebook environment or a similar virtual environment in order to visualize all the plotted data. Especially the 3D plot. 
 
-Dependencies:
+# Dependencies:
 
 1. Python3
 2. Matplotlib libraries: pyplot
