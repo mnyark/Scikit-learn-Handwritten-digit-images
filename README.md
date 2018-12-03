@@ -23,7 +23,7 @@ Module imports:
 3. train_test_split from model_selection
 4. GaussianNB from naive_bayes
 5. accuracy_score from metrics
-6. sns from Seabon
+6. sns from Seaborn
 7. confusion_matrix from metrics
 8. stats from scipy
 9. mplot3d from mpl_toolkits
